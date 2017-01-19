@@ -1,0 +1,22 @@
+{
+  "name": "html5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "n",
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohankumart/HTML5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohankumart/HTML5/issues"
+  },
+  "homepage": "https://github.com/mohankumart/HTML5#readme",
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}

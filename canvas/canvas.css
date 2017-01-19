@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+* {
+	box-sizing: border-box;	
+}
+
+.app-container {
+	width: 100%;
+	background-color: #000;
+}
+
+.canvas-container {
+	margin: 30px auto;
+	width: 500px;
+	height: 500px;
+	border: solid 2px #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.canvas {
+	
+}
+
+.controls {
+	text-align: center;	
+}
+
+.controls ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.controls ul li.selected {
+	border: solid 5px #fff;
+}
+
+.controls .red {
+	width: 40px;
+	height: 40px;
+	background-color: red;
+}
+
+.controls .blue {
+	width: 40px;
+	height: 40px;
+	background-color: blue;
+}
+
+.controls .green {
+	width: 40px;
+	height: 40px;
+	background-color: green;
+}
+
+.rounded {
+	border-radius: 50px;
+}
+
+.rangeControl {
+	width: 200px;
+	margin: 20px auto;
+	display: none;	
+}
+
+.dynamicColor {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
