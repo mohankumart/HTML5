@@ -48,6 +48,8 @@
 		}
 	}).mouseup(function(){
 		mouseDown = false;
+	}).mouseleave(function(){
+		$canvas.mouseup();
 	});
 	
 	
