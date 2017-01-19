@@ -8,7 +8,7 @@
 		$('.rangeControl').toggle()
 	});
 	
-	$("ul li").click(function(event){
+	$("ul").on('click', "li", function(event){
 		$(this).siblings().removeClass("selected");
 		$(this).addClass("selected");
 		color = $(this).css("background-color");
@@ -22,4 +22,12 @@
 	}
 	changeColor()
 	$("input[type=range]").change(changeColor);
+	
+	$("#addcolor").click(function(){
+		var $newcolor = $("<li></li>");
+		$newcolor.css('background-color',$('.dynamicColor').css('background-color')).addClass('rounded');
+		$("ul").append($newcolor);
+		$newcolor.click();
+	});
+	
 })(jQuery);

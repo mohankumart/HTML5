@@ -8,27 +8,29 @@
 		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
 	</head>
 	<body class="app-container">
-		<div class="canvas-container">
-			<canvas width="500" height="500"></canvas>
-		</div>
-		<div class="controls">
-			<ul>
-				<li class="red rounded selected"></li>
-				<li class="blue rounded"></li>
-				<li class="green rounded"></li>
-			</ul>
-			<input type="button" value="New Color" id="newColor"/>
-			<div class="rangeControl">
-				<div class="dynamicColor"></div>
-				<input id="red" value="0" type="range" min="0" max="255" step="10" />
-				<input id="blue" value="0" type="range" min="0" max="255" step="10" />
-				<input id="green" value="0" type="range" min="0" max="255" step="10" />
-				<div>
-					<input type="button" value="Add Color" id="addcolor"/>
-				</div>
+		<div class="clearfix">
+			<div class="canvas-container pull-left">
+				<canvas width="500" height="500"></canvas>
 			</div>
-			
-		</div>
+			<div class="controls pull-left">
+				<ul>
+					<li class="red rounded selected"></li>
+					<li class="blue rounded"></li>
+					<li class="green rounded"></li>
+				</ul>
+				<input type="button" value="New Color" id="newColor"/>
+				<div class="rangeControl">
+					<div class="dynamicColor"></div>
+					<input id="red" value="0" type="range" min="0" max="255" step="10" />
+					<input id="blue" value="0" type="range" min="0" max="255" step="10" />
+					<input id="green" value="0" type="range" min="0" max="255" step="10" />
+					<div>
+						<input type="button" value="Add Color" id="addcolor"/>
+					</div>
+				</div>
+				
+			</div>
+		</div>	
 		<script src="canvas.js"></script>
 	</body>
 </html>
